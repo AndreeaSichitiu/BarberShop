@@ -1,0 +1,10 @@
+.activities {
+@extend .about__details;
+@extend .about__details--padding;
+gap: 44px;
+}
+
+.activities-list {
+    display: flex;
+    gap: 30px;
+}

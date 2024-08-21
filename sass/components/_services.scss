@@ -1,0 +1,41 @@
+.services {
+    background-size: cover;
+    background-image: url(../images/services-background.jpg);
+    background-repeat: no-repeat;
+
+    &__lists {
+        display: flex;
+        gap: 30px;
+        padding: 44px 0;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #9DA4BD;
+        
+    }
+
+    &__lists-items {
+        padding: 30px 20px;
+        width: 570px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    &__lists-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__lists-side{
+        background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+ 
