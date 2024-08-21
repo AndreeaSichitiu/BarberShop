@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 0;
+
+  &__text {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    color: #9da4bd;
+  }
+  &__media {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+}

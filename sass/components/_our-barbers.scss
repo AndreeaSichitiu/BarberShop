@@ -1,0 +1,70 @@
+.our-barbers {
+  background: #f7f7f7;
+}
+
+.barber {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  &__details {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  &__name {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+  }
+
+  &__image {
+    width: 370px;
+    height: 346px;
+  }
+
+  &__ocupation {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ff6c00;
+  }
+}
+
+.media-grid {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  &__item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms linear;
+
+    & svg :hover {
+      fill: #ff6c00;
+    }
+  }
+}
+
+.grid {
+  display: flex;
+  gap: 30px;
+
+  &__item {
+    list-style: none;
+  }
+}
+
+.about__details--padding {
+  padding: 120px 0;
+}
